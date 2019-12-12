@@ -121,7 +121,7 @@ Z = temp(X, Y)
 # cmap=cm.RdYlGn
 plt.imshow(Z, interpolation='bilinear', cmap=cm.Greys, origin='center',
                 vmax=abs(Z).max(), vmin=-abs(Z).max())
-plt.xlabel("$x$ ($10^{-4}$ AU)")
-plt.ylabel("$y$ ($10^{-4}$ AU)")
+plt.xlabel("$x$ ($10^{-2}$ AU)")
+plt.ylabel("$y$ ($10^{-2}$ AU)")
 plt.title(str(star_1) + " + " + str(star_2) + ", " + str(separation) + " AU separation")
 plt.show()
